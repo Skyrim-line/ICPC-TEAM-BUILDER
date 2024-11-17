@@ -1,0 +1,111 @@
+.result-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    /* Increase inner padding */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    width: 85%;
+    /* Adjust width to make content wider */
+    max-width: 1200px;
+    /* Set maximum width */
+}
+
+.profile-avatar {
+  background-color: var(--random-bg-color, #ddd);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.centered-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Spacing between each line */
+  margin-top: 20px;
+  width: 100%; /* Make the info block take up available width */
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between; /* Align left and right */
+  width: 80%; /* Control width of each line */
+  max-width: 400px; /* Limit maximum width per line */
+  font-size: 18px;
+  margin-left: 5px; /* Adjust left margin */
+  margin-top: 10px;
+}
+
+.info-item-2 {
+  display: flex;
+  justify-content: space-between; /* Align left and right */
+  width: 100%; /* Control width of each line */
+  max-width: 800px; /* Limit maximum width per line */
+  font-size: 18px;
+  margin-left: 5px; /* Adjust left margin */
+  margin-top: 10px;
+}
+
+.teammate-profile {
+  background-color: var(--random-bg-color, #ddd);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: auto;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-content .ant-list-item {
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.proficiency-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.ant-list-item-meta-description div.proficiency-details {
+  max-height: 500px; /* Adjust based on content size */
+  opacity: 1;
+}
+
+.proficiency-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust spacing between items */
+}
+
+.proficiency-list span {
+  white-space: nowrap; /* Prevent line breaks */
+}

@@ -1,0 +1,11 @@
+port = "50051"
+email_address = "enter the system email"
+app_password = "your password here"
+smtp_server = "the smtp server here"
+smtp_port = 587 # smtp server port here
+
+[amqp]
+host="localhost"
+port="5672"
+username="guest"
+password="guest"

@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+*.bk
+.vscode/
+.idea/
+bin/
+bin_docker/
+cache/
+frontend/.next/

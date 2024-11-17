@@ -1,0 +1,65 @@
+.team-background {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  /* Add top spacing */
+}
+
+.outer-card-title {
+  font-family: Helvetica;
+  font-size: 25px;
+  margin-bottom: 20px;
+  /* Add bottom spacing for title */
+}
+
+.card-container {
+  width: 98%;
+  border-radius: 10px;
+  padding: 40px;
+  /* Add padding inside the entire card */
+  background-color: #EFEFEF;
+}
+
+.centered-form {
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 40px 0;
+  /* Add vertical padding for the form */
+}
+
+.form-input {
+  width: 300px;
+}
+
+.centered-form .ant-form-item {
+  margin-bottom: 30px;
+  /* Add spacing between form items */
+}
+
+/* Submit button styles */
+.ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  /* Add top padding for the button */
+}
+
+.ant-table {
+  margin-bottom: 30px;
+  /* Add spacing between the table and the bottom of the form */
+}
+
+/* Text and input field styles for visual spacing */
+p {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 20px;
+  /* Add bottom spacing for hint text */
+}
+
+.reminder {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  margin-top: 20px;
+}

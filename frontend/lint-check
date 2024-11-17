@@ -1,0 +1,11 @@
+./app/private/adminDashboard/groupManagement/page.jsx
+4:10  Error: 'Table' is defined but never used.  @typescript-eslint/no-unused-vars
+10:10  Error: 'data' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+10:16  Error: 'setData' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+11:10  Error: 'loading' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:22  Error: 'setPagination' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+22:13  Error: 'response' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+39:14  Error: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+49:6  Warning: React Hook useEffect has a missing dependency: 'pagination'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+52:9  Error: 'handleTableChange' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+57:9  Error: 'columns' is assigned a value but never used.  @typescript-eslint/no-unused-vars

@@ -1,0 +1,202 @@
+/* first part: welcome */
+.welcome-container {
+  background-color: #043873; /* Background color matches the design */
+  padding: 60px;
+  display: flex; /* Add flexbox layout */
+  flex-direction: row; /* Arrange children in a row */
+  align-items: center; /* Align items vertically centered */
+  gap: 80px; /* Adjust the gap as needed */
+}
+
+.welcome-left-container {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.welcome-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #ffffff;
+  font-variation-settings: "weight" 900, "ital" 1;
+  font-size: 8rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  /* Adjusted text shadow for effect */
+  text-shadow: 12px 12px 0px #ffd700, /* Bright yellow */
+               18px 18px 0px #ffca28, /* Vivid gold */
+               24px 24px 0px #00bcd4, /* Cyan */
+               30px 30px 0px #0288d1, /* Sky blue */
+               50px 50px 10px #01579b; /* Deep sky blue */
+  cursor: pointer;
+}
+
+.container:hover {
+  letter-spacing: 24px;
+  font-family: "Meta", sans-serif;
+  font-variation-settings: "weight" 100, "ital" 0;
+  text-shadow: none;
+  color: #7aa9a9;
+  font-size: 4rem;
+}
+
+.container-2 {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #121111;
+  font-variation-settings: "weight" 900, "ital" 1;
+  font-size: 8rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  /* Adjusted text shadow for effect */
+  text-shadow: 12px 12px 0px #ffd700, /* Bright yellow */
+               18px 18px 0px #ffca28, /* Vivid gold */
+               24px 24px 0px #00bcd4, /* Cyan */
+               30px 30px 0px #0288d1, /* Sky blue */
+               50px 50px 10px #01579b; /* Deep sky blue */
+  cursor: pointer;
+}
+
+.container-2:hover {
+  letter-spacing: 24px;
+  font-family: "Meta", sans-serif;
+  font-variation-settings: "weight" 100, "ital" 0;
+  text-shadow: none;
+  color: #7aa9a9;
+  font-size: 4rem;
+}
+
+.welcome-button-container {
+  display: flex;
+  flex-direction: column; /* Arrange in a column layout */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.welcome-image {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+}
+
+.login-button{
+  width: 200px;
+  background-color: #043873;
+  font-size: 20px;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 80px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.register-button {
+  width: 200px;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+}
+
+/* second part: User guide */
+.User-guide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E0E0E0;
+  padding: 85px;
+  gap: 25px;
+}
+
+.user-guide-title-container {
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.user-guide-image-container {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+}
+
+.register-now-button {
+  background-color: #043873;
+  font-size: 18px;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+/* Third part: About ICPC */
+.about-icpc-container {
+  background-color: #f0f4f8;
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 85px; /* Adjust the gap as needed */
+}
+
+.icpc-image {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+}
+
+.about-icpc-text-container {
+  width: 50%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-icpc-heading-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-icpc-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}

@@ -1,0 +1,62 @@
+/* 自定义导航栏样式 */
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  /* --bs-nav-link-font-weight: bold; */
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #FFF;
+  font-size: auto;
+}
+
+.nav-link:hover {
+  color: #FFE492;
+}
+
+.nav-link.disabled {
+  color: #FFF;
+}
+
+.navbar-custom {
+  background-color: #001f3f;
+  display: flex;
+  padding: 16px 220px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-center{
+  display: flex;
+  padding: 16px 220px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icpc-logo {
+  height: auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+
+.button-style{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}

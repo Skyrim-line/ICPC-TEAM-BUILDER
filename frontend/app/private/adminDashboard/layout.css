@@ -1,0 +1,9 @@
+.logo{
+    width: 80%; /* 使Logo宽度填满Sider */
+    height: auto; /* 保持图片的宽高比 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px; /* 适当内边距，确保图片不会贴边 */
+    box-sizing: border-box; /* 确保内边距不会影响总宽度 */
+}
