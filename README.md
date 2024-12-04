@@ -62,7 +62,7 @@ git clone https://github.com/unsw-cse-comp99-3900/capstone-project-2024-t3-9900W
 3. Build the backend Docker image using make:
    
     ```bash
-    make docker-save
+    make docker_save
     ```
     
     ![unnamed (1)](./ReadmePics/unnamed%20(1).png)
