@@ -3,15 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd frontend # 进入 frontend 文件夹
-        - npm ci      # 安装依赖
+        - npm ci # 安装依赖
     build:
       commands:
         - npm run build # 构建项目
   artifacts:
-    baseDirectory: frontend/.next # 指定构建后的目录
+    baseDirectory: .next # 构建输出目录，Amplify 会从这里提取文件
     files:
       - '**/*' # 包含所有文件
   cache:
     paths:
-      - frontend/node_modules/**/* # 缓存 node_modules
+      - node_modules/**/* # 缓存 node_modules
