@@ -3,14 +3,20 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install # 安装依赖
+        - npm install
     build:
       commands:
-        - npm run build # 构建项目
+        - npm run build
   artifacts:
-    baseDirectory: .next # 构建输出目录，Amplify 会从这里提取文件
+    baseDirectory: .next
     files:
-      - '**/*' # 包含所有文件
+      - '**/*'
   cache:
     paths:
-      - node_modules/**/* # 缓存 node_modules
+      - node_modules/**/*
+
+redirects:
+  - source: "/api/:path*"
+    target: "http://3.107.208.72:8088/api/:path*"
+    status: 200
+    condition: null
