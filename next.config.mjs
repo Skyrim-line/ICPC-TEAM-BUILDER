@@ -9,6 +9,8 @@ const nextConfig = {
       },
     ];
   },
+  // 开启静态导出支持（Amplify 默认需要支持静态页面）
+  output: "export",
 };
 
 export default nextConfig;
