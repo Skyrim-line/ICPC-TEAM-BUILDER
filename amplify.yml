@@ -8,15 +8,9 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .next
+    baseDirectory: out
     files:
-      - '**/*'
+      - "**/*"
   cache:
     paths:
       - node_modules/**/*
-
-redirects:
-  - source: "/api/:path*"
-    target: "http://3.107.208.72:8088/api/:path*"
-    status: 200
-    condition: null
